@@ -32,3 +32,53 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Useful Libraries
+
+- Animations
+  - [framer-motion](https://www.framer.com/docs/examples/)
+  - [react-spring](https://react-spring.io/basics#basics)
+- UI
+  - Toast
+    - react-toastify
+  - DatePicker
+    - react-datepicker
+  - Recaptcha
+    - react-google-recaptcha
+  - Markdown
+    - @uiw/react-markdown-editor
+    - react-markdown
+  - Star rating
+    - react-star-ratings
+- Security
+  - bcrypt
+  - jsonwebtoken
+  - Schema Validation
+    - joi
+    - yup
+    - ajw
+  - jsrsasign: rsa asymmetric
+- DB
+  - ORM
+    - Prisma
+- Other
+  - ejs: Embedded JavaScript templates
+  - glob: Match files using the patterns the shell uses, like stars and stuff.
+  - fastify: api backend
+  - sharp: to convert large images in common formats to smaller, web-friendly images of varying dimensions.
+  - slug: Slugifies strings, even when they contain Unicode.
+  - tsyringe: A lightweight dependency injection container for TypeScript/JavaScript for constructor injection.
+  - twilio
+- Testing
+  - @testing-library/react
+  - supertest: HTTP assertions made easy via superagent.
+  - @faker-js/faker: Fake data for testing
+  - Storybook
+    - @storybook/react
+    - @storybook/addon-actions
+    - @storybook/addon-essentials
+    - @storybook/addon-links
+    - @storybook/builder-webpack5
+    - @storybook/manager-webpack5
+  - Test with TypeScript
+    - ts-jest: Write test codes with typescript
