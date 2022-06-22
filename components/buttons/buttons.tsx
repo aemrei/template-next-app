@@ -1,4 +1,4 @@
-export type ButtonProps = {
+type ButtonProps = {
   children: React.ReactNode;
   onClick: () => void;
   className?: string;
