@@ -4,6 +4,14 @@ And this template itself is a [Next.js](https://nextjs.org/) project bootstrappe
 
 ## Getting Started
 
+Sample .env file content:
+
+```
+NODE_ENV=test
+DB_URL=mongodb://localhost:27017/mydb
+JWT_SECRET=secret
+```
+
 First, run the development server:
 
 ```bash
