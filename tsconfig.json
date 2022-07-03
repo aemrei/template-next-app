@@ -2,10 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/containers/*": ["containers/*"],
-      "@/svg/*": ["svg/*"],
-      "@/utils/*": ["utils/*"]
+      "@/*": ["./*"]
     },
     "target": "ES2015",
     "lib": ["dom", "dom.iterable", "esnext"],

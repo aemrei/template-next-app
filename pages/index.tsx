@@ -1,3 +1,4 @@
+import Greeting from "features/greeting/Greeting";
 import { useHello } from "hooks/useHello";
 import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
@@ -15,6 +16,7 @@ const Home: NextPage<Props> = ({ title, description }) => {
       {title}
       <div className="rounded-md bg-blue-500">{description}</div>
       <div>{isLoading ? "..." : <span>from async {data?.name}.</span>}</div>
+      <Greeting />
     </div>
   );
 };
